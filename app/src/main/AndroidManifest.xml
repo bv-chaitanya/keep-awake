@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.keepawake">
+
+    <!-- For holding the WakeLock -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <!-- Required to start foreground services on Android O+ -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.KeepAwake">
+
+        <!-- Your launcher activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Transparent Activity for screen-on flag -->
+        <activity
+            android:name=".KeepAwakeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Transparent"/>
+
+        <!-- Foreground service that holds the WakeLock -->
+        <service
+            android:name=".KeepAwakeService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+
+
+        <!-- Quick Settings tile service -->
+        <service
+            android:name=".KeepAwakeTileService"
+            android:exported="true"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+
+        <!-- App widget provider -->
+        <receiver
+            android:name=".KeepAwakeAppWidgetProvider"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/keep_awake_widget_info"/>
+        </receiver>
+
+    </application>
+</manifest>

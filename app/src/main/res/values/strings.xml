@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KeepAwake</string>
+    <string name="keep_awake_state_on">ON</string>
+    <string name="keep_awake_state_off">OFF</string>
+    <string name="add_quick_settings_tile">Add Quick-Settings Tile</string>
+    <string name="disable_battery_optimization">Disable Battery Optimization</string>
+    <string name="keep_awake_mode_n_n_keeps_your_cpu_awake_n_keeps_the_screen_on_n_nuse_the_buttons_below_to_finish_setup">Keep-Awake Mode\n\n• Keeps your CPU awake\n• Keeps the screen on\n\nUse the buttons below to finish setup:</string>
+
+</resources>

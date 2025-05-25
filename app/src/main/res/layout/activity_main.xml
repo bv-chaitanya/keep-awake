@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Description Text -->
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/keep_awake_mode_n_n_keeps_your_cpu_awake_n_keeps_the_screen_on_n_nuse_the_buttons_below_to_finish_setup"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <!-- Spacer -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="24dp"/>
+
+    <!-- Button: Battery Optimization -->
+    <Button
+        android:id="@+id/btnBattery"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="@string/disable_battery_optimization" />
+
+    <!-- Spacer -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"/>
+
+    <!-- Button: Add Quick Settings Tile -->
+    <Button
+        android:id="@+id/btnAddTile"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_quick_settings_tile" />
+
+</LinearLayout>
