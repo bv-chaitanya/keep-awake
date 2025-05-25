@@ -1,9 +1,9 @@
-[![Release APK](https://img.shields.io/github/v/release/your-username/keep-awake?label=APK)](https://github.com/bv-chaitanya/keep-awake/releases/latest)
+[![Release APK](https://img.shields.io/github/v/release/bv-chaitanya/keep-awake?label=APK)](https://github.com/bv-chaitanya/keep-awake/releases/latest)
 
 
 # 🚀 KeepAwake
 
-[![Release APK](https://img.shields.io/github/v/release/your-username/keep-awake?label=APK)](https://github.com/bv-chaitanya/keep-awake/releases/latest)  
+[![Release APK](https://img.shields.io/github/v/release/bv-chaitanya/keep-awake?label=APK)](https://github.com/bv-chaitanya/keep-awake/releases/latest)  
 ![License](https://img.shields.io/github/license/bv-chaitanya/keep-awake)  
 ![Issues](https://img.shields.io/github/issues/bv-chaitanya/keep-awake)
 
