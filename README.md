@@ -1,11 +1,11 @@
-[![Release APK](https://img.shields.io/github/v/release/your-username/keep-awake?label=APK)](https://github.com/your-username/keep-awake/releases/latest)
+[![Release APK](https://img.shields.io/github/v/release/your-username/keep-awake?label=APK)](https://github.com/bv-chaitanya/keep-awake/releases/latest)
 
 
 # 🚀 KeepAwake
 
-[![Release APK](https://img.shields.io/github/v/release/your-username/keep-awake?label=APK)](https://github.com/your-username/keep-awake/releases/latest)  
-![License](https://img.shields.io/github/license/your-username/keep-awake)  
-![Issues](https://img.shields.io/github/issues/your-username/keep-awake)
+[![Release APK](https://img.shields.io/github/v/release/your-username/keep-awake?label=APK)](https://github.com/bv-chaitanya/keep-awake/releases/latest)  
+![License](https://img.shields.io/github/license/bv-chaitanya/keep-awake)  
+![Issues](https://img.shields.io/github/issues/bv-chaitanya/keep-awake)
 
 > **Keep your Android device awake!**  
 > A simple app with a Quick-Settings tile, a home-screen widget, and notification action  
